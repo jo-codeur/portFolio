@@ -15,11 +15,41 @@
     <body>
 
         <header>
+            
+            <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+
+                <div class="container">
+
+                    <a href="#" class="navbar-brand">Johan JOUBERT</a>
+
+                    <button class="navbar-toggler" 
+                            type="button" 
+                            data-toggle="collapse" 
+                            data-target="#monMenu" 
+                            aria-controls="monMenu" 
+                            aria-label="Menu pour mobile">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+
+                    <div class="collapse navbar-collapse" id="monMenu">
+                        <div class="navbar-nav ml-auto">
+                            <a href="#" class="nav-item nav-link">Présentation</a>
+                            <a href="#nosproduits" class="nav-item nav-link">Portfolio</a>
+                            <a href="#photos" class="nav-item nav-link">Technologies</a>
+                            <a href="#nospacks" class="nav-item nav-link">Contact</a>
+                        </div>
+    
+                    </div>
+
+                </div>
+
+            </nav>
 
             <div class="container">
 
                 <div class="row">
-                    <div class="col-md-12">
+                    <div class="col-lg-12">
                         <h1>Johan JOUBERT
                             <br>
                             <span>Développeur
@@ -41,7 +71,7 @@
                 <div class="container">
 
                     <div class="row">
-                        <div class="col-md-12">
+                        <div class="col-lg-12">
                             <img src="ressources/images/johan.png" alt="Johan JOUBERT">
                             <p>Vous savez, moi je ne crois pas qu’il y ait de bonne ou de mauvaise situation. Moi, si je devais résumer ma vie aujourd’hui avec vous, je dirais que c’est d’abord des rencontres. Des gens qui m’ont tendu la main, peut-être à un moment où je ne pouvais pas, où j’étais seul chez moi. Et c’est assez curieux de se dire que les hasards, les rencontres forgent une destinée... Parce que quand on a le goût de la chose, quand on a le goût de la chose bien faite, le beau geste, parfois on ne trouve pas l’interlocuteur en face je dirais, le miroir qui vous aide à avancer.
                                 <br>
@@ -67,18 +97,141 @@
 
             </section>
 
-            <section>
+                <div class="container"> 
 
-                <div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <h2>PORTFOLIO</h2>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <a href="exo3/index.html" class="linkProject" target="_blanck">Voyage à Zanzibar</a>
+                        </div>
+                        <div class="col-lg-6">
+                            <i class="fab fa-html5"></i>
+                            <i class="fab fa-css3-alt"></i>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <a href="http://johanjoubert.com/appli_meteo/index.html" class="linkProject" target="_blanck">Application Météo</a>
+                        </div>
+                        <div class="col-lg-6">
+                            <i class="fab fa-html5"></i>
+                            <i class="fab fa-css3-alt"></i>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <a href="http://johanjoubert.com/impos/index.html" class="linkProject" target="_blanck">Calculer Votre Impos sur le revenu</a>
+                        </div>
+                        <div class="col-lg-6">
+                            <i class="fab fa-html5"></i>
+                            <i class="fab fa-css3-alt"></i>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <a href="http://johanjoubert.com/changer_theme/index.html" class="linkProject" target="_blanck">Changer la couleur du thème</a>
+                        </div>
+                        <div class="col-lg-6">
+                            <i class="fab fa-html5"></i>
+                            <i class="fab fa-css3-alt"></i>
+                        </div>
+                    </div>
 
                 </div>
-                
+
+            <section>
+
+                <div class="container">
+
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <h2>TECHNOLOGIE</h2>
+                        </div>
+                    </div>
+
+                </div>
+
+            </section>
+            
+            <section>
+
+                <div class="container">
+
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <h2>CONTACT</h2>
+                        </div>
+                    </div>
+
+
+                    <form action="post">
+
+                        <div class="row form-center">
+                            <div class="col-lg-12">
+                                <label for="name">Nom :*</label>
+                            </div>
+                            <div class="col-lg-12">
+                                <input type="text" id="name">
+                            </div>
+                        </div>
+
+                        <div class="row form-center">
+                            <div class="col-lg-12">
+                                <label for="email">Email :*</label>
+                            </div>
+                            <div class="col-lg-12">
+                                <input type="email" id="email">
+                            </div>
+                        </div> 
+
+                        <div class="row form-center">
+                            <div class="col-lg-12">
+                                <label for="object">Objet :</label>
+                            </div>
+                            <div class="col-lg-12">
+                                <input type="text" id="object">
+                            </div>
+                        </div> 
+
+                        <div class="row form-center">
+                            <div class="col-lg-12">
+                                <label for="textarea">Message :*</label>
+                            </div>
+                            <div class="col-lg-12">
+                                <textarea id="textarea" rows="3" placeholder="votre message"></textarea>
+                            </div>
+                        </div>
+                        
+                        <div class="row form-center">
+                            <div class="col-lg-12">
+                                <input type="submit" value="ENVOYER" id="submit">
+                            </div>
+                        </div> 
+
+                    </form>
+
+                </div>
+
             </section>
 
         </main>
 
         <footer>
-
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h3>Johan Joubert création - 2020</h3>
+                    </div>
+                </div>
+            </div>
         </footer>
 
 
