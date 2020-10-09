@@ -67,9 +67,16 @@ header {
 }
 
 .main-title:hover .circles-three{
-    transform: translateY(800px);
+    transform: translate(500px, 1200px);
     transition: 2.5s;
 }
+
+.main-title:hover .circles-four{
+    transform: translateY(-1000px);
+    transition: 2.5s;
+    background-color:  rgba(170, 87, 32, 0.6);
+}
+
 
 
 
@@ -104,7 +111,17 @@ header {
     top: -1000px;
     left: 50px;
     transition: 20s;
+}
 
+.circles-four {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: transparent;
+    position: absolute;
+    top: 900px;
+    left: 100px;
+    transition: 20s;
 }
 
 
