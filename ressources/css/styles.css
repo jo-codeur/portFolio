@@ -45,20 +45,31 @@ header {
 
 .main-title h1 {
     font-weight: 700;
-    font-size: 5em;
+    font-size: 9em;
     text-align: left;
+    font-family: 'Racing Sans One', cursive;
 }
 
 .main-title span {
-    font-weight: 100;
-    font-size: 0.35em;
-    word-spacing: 8px;
+    position: relative;
+    top: -90px;
+    left: 20px;
+}
+
+
+#jovecto {
+    transition: 1s;
+}
+
+#jovecto:hover {
+    transform: rotate(10deg);
+    transition: 1s;
 }
 
 
 /*animate circle*/
 
-.main-title:hover .circles-one{
+.box-main-title:hover .circles-one{
     transform: translateY(1000px);
     transition: 3s;
 }
@@ -131,7 +142,7 @@ header {
 
 /*arrow-down*/
 .arrow-down {
-    margin: 100px auto;
+    margin: -100px auto;
     width: 30px;
 }
 
