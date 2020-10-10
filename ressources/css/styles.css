@@ -38,8 +38,10 @@ header {
 
 .main-title {
     margin-top: 10%;
-    color: rgba(71, 70, 70, 0.7);
-}
+    font-size: 1em;
+    background: -webkit-linear-gradient(rgb(163, 41, 41), rgb(37, 35, 161));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;}
 
 .main-title h1 {
     font-weight: 700;
@@ -155,10 +157,14 @@ header {
 /*PRESENTATION=====
 =================*/
 
+.bloc-img {
+    margin: 60px auto;
+}
+
 .bloc-img img {
+    display: block;
     width: 200px;
-    margin-top: 60px;
-    
+    margin:  auto;
 }
 
 /*PORTFOLIO========
@@ -186,4 +192,3 @@ header {
 } */
 
 
-/* ---- reset ---- */ body{ margin:0; font:normal 75% Arial, Helvetica, sans-serif; } canvas{ display: block; vertical-align: bottom; } /* ---- particles.js container ---- */ #particles-js{ position:absolute; width: 100%; height: 100%; background-color: black; background-image: url(""); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; } /* ---- stats.js ---- */ .count-particles{ background: #000022; position: absolute; top: 48px; left: 0; width: 80px; color: #13E8E9; font-size: .8em; text-align: left; text-indent: 4px; line-height: 14px; padding-bottom: 2px; font-family: Helvetica, Arial, sans-serif; font-weight: bold; } .js-count-particles{ font-size: 1.1em; } #stats, .count-particles{ -webkit-user-select: none; margin-top: 5px; margin-left: 5px; } #stats{ border-radius: 3px 3px 0 0; overflow: hidden; } .count-particles{ border-radius: 0 0 3px 3px; }
