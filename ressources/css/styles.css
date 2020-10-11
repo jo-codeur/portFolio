@@ -38,27 +38,26 @@ header {
 
 .main-title {
     margin-top: 10%;
-    font-size: 1em;
     background: -webkit-linear-gradient(rgb(163, 41, 41), rgb(37, 35, 161));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;}
 
 .main-title h1 {
     font-weight: 700;
-    font-size: 9em;
+    font-size: 5.5em;
     text-align: left;
     font-family: 'Racing Sans One', cursive;
 }
 
 .main-title span {
-    position: relative;
-    top: -90px;
-    left: 20px;
+    top: -50px;
+    left: 10px;
 }
 
 
 #jovecto {
     transition: 1s;
+    width: 100%;
 }
 
 #jovecto:hover {
@@ -69,22 +68,22 @@ header {
 
 /*animate circle*/
 
-.box-main-title:hover .circles-one{
-    transform: translateY(1000px);
+.main-with-circle:hover .circles-one{
+    transform: translateY(800px);
     transition: 3s;
 }
 
-.main-title:hover .circles-two{
-    transform: translateY(1000px);
+.main-with-circle:hover .circles-two{
+    transform: translateY(850px);
     transition: 2.5s;
 }
 
-.main-title:hover .circles-three{
-    transform: translate(500px, 1200px);
+.main-with-circle:hover .circles-three{
+    transform: translate(300px, 800px);
     transition: 2.5s;
 }
 
-.main-title:hover .circles-four{
+.main-with-circle:hover .circles-four{
     transform: translateY(-1000px);
     transition: 2.5s;
     background-color:  rgba(170, 87, 32, 0.6);
@@ -139,44 +138,34 @@ header {
 
 
 
-
-/*arrow-down*/
-.arrow-down {
-    margin: -100px auto;
-    width: 30px;
-}
-
-.link-arrow {
-    color:  rgba(71, 70, 70, 0.7);
-    font-size: 2em;
-    width: 3px;
-    margin: auto;
-    text-align: center;
-}
-
-.fa-angle-double-down {
-    font-size: 1.5em;
-}
-
-.fa-angle-double-down:hover {
-    color: #cc9565;
-    transform: translateY(20px);
-    transition: 1s;
-}
-
-
 /*PRESENTATION=====
 =================*/
 
-.bloc-img {
-    margin: 60px auto;
+.box-description {
+    background-color: white;
+    z-index: 1000;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    height: 100%;
+    width: 800px;
+    transform: translateY(30px);
+    transition: 5s;
+    border-radius: 10px;
 }
 
-.bloc-img img {
-    display: block;
-    width: 200px;
-    margin:  auto;
+.box-description p {
+    text-align: left;
+    font-size: 1.5em;
+    color: #000;
 }
+
+
+.position-relative {
+    top: 50px;
+    left: -50px;
+    margin-bottom: 60px;
+}
+
+
 
 /*PORTFOLIO========
 =================*/
@@ -193,13 +182,13 @@ header {
 
 
 
-/*POUR LA POLICE DES TITRE */
+POUR LA POLICE DES TITRE */
 
-/* @font-face {
+@font-face {
     font-family: "Lato";
     font-style: normal;
     font-weight: normal;
     src:url("/webfonts/Advent_Pro_400.ttf") format("truetype");
-} */
+}
 
 
