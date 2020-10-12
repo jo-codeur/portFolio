@@ -73,16 +73,22 @@ header {
 .main-with-circle:hover .circles-one{
     transform: translateY(800px);
     transition: 3s;
+    background-color:  rgba(170, 87, 32, 0.6);
+
 }
 
 .main-with-circle:hover .circles-two{
     transform: translateY(850px);
     transition: 2.5s;
+    background-color:  rgba(170, 87, 32, 0.6);
+
 }
 
 .main-with-circle:hover .circles-three{
     transform: translate(300px, 800px);
     transition: 2.5s;
+    background-color:  rgba(170, 87, 32, 0.6);
+
 }
 
 .main-with-circle:hover .circles-four{
@@ -91,24 +97,80 @@ header {
     background-color:  rgba(170, 87, 32, 0.6);
 }
 
+.main-with-circle:hover .circles-five{
+    transform: translateY(-900px);
+    transition: 2.5s;
+    background-color:  rgba(170, 87, 32, 0.6);
+}
+
+.main-with-circle:hover .circles-six{
+    transform: translateY(-600px);
+    transition: 2.5s;
+    background-color:  rgba(170, 87, 32, 0.6);
+}
+
+.main-with-circle:hover .circles-seven{
+    transform: translateY(-1500px);
+    transition: 2.5s;
+    background-color:  rgba(170, 87, 32, 0.6);
+}
+
+.main-with-circle:hover .circles-height{
+    transform: translateY(-400px);
+    transition: 2.5s;
+    background-color:  rgba(170, 87, 32, 0.6);
+}
+
+.main-with-circle:hover .circles-nine{
+    transform: translateY(-450px);
+    transition: 2.5s;
+    background-color:  rgba(170, 87, 32, 0.6);
+}
+
+.main-with-circle:hover .circles-ten{
+    transform: translateY(-300px);
+    transition: 2.5s;
+    background-color:  rgba(170, 87, 32, 0.6);
+}
+
+.main-with-circle:hover .circles-eleven{
+    transform: translateY(-810px);
+    transition: 2.5s;
+    background-color:  rgba(170, 87, 32, 0.6);
+}
+
+.main-with-circle:hover .circles-twelves{
+    transform: translateY(-600px);
+    transition: 2.5s;
+    background-color:  rgba(170, 87, 32, 0.6);
+}
+
+.main-with-circle:hover .circles-thirteen{
+    transform: translateY(-1000px);
+    transition: 2.5s;
+    background-color:  rgba(170, 87, 32, 0.6);
+}
+
+
+
 
 
 
 .circles-one {
-    width: 60px;
-    height: 60px;
+    width: 6px;
+    height: 6px;
     border-radius: 50%;
-    background-color: rgba(127, 133, 175, 0.6);
+    background-color: transparent;
     position: absolute;
     top: -1000px;
     transition: 20s;
 }
 
 .circles-two {
-    width: 60px;
-    height: 60px;
+    width: 6px;
+    height: 6px;
     border-radius: 50%;
-    background-color: rgba(49, 151, 88, 0.6);
+    background-color: transparent;
     position: absolute;
     top: -900px;
     left: 500px;
@@ -117,10 +179,10 @@ header {
 }
 
 .circles-three {
-    width: 60px;
-    height: 60px;
+    width: 6px;
+    height: 6px;
     border-radius: 50%;
-    background-color: rgba(170, 87, 32, 0.6);
+    background-color: transparent;
     position: absolute;
     top: -1000px;
     left: 50px;
@@ -128,8 +190,8 @@ header {
 }
 
 .circles-four {
-    width: 60px;
-    height: 60px;
+    width: 6px;
+    height: 6px;
     border-radius: 50%;
     background-color: transparent;
     position: absolute;
@@ -137,6 +199,73 @@ header {
     left: 100px;
     transition: 20s;
 }
+
+.circles-five {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: transparent;
+    position: absolute;
+    top: 850px;
+    left: 150px;
+    transition: 20s;
+}
+
+.circles-six {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: transparent;
+    position: absolute;
+    top: 750px;
+    left: 150px;
+    transition: 20s;
+}
+
+.circles-seven {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: transparent;
+    position: absolute;
+    top: 30px;
+    left: 150px;
+    transition: 20s;
+}
+
+.circles-height {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: transparent;
+    position: absolute;
+    top: 950px;
+    left: 150px;
+    transition: 20s;
+}
+
+.circles-nine{
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: transparent;
+    position: absolute;
+    top: 950px;
+    left: 150px;
+    transition: 20s;
+}
+
+.circles-ten {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: transparent;
+    position: absolute;
+    top: 950px;
+    left: 150px;
+    transition: 20s;
+}
+
 
 .h2-fullStack h2 {
     text-align: left;
