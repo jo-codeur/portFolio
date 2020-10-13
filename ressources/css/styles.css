@@ -4,6 +4,11 @@ body {
     padding: 0;
 }
 
+a {
+    text-decoration: none;
+    color: #000;
+}
+
 /*HEADER*/
 
 header {
@@ -127,3 +132,48 @@ header:hover #spider2 {
 
 /*MAIN*/
 
+.social-network {
+    text-align: center;
+    font-size: 3em;
+    margin: 0;
+}
+
+/*PRESENTATION*/
+
+.presentation {
+    background-color: #D1312C;
+    margin: 0;
+}
+
+.contain-about {
+    margin-top: 60px;
+}
+
+.contain-about h2 {
+    text-align: center;
+    color: #fff;
+}
+
+.contain-about h2:after {
+    display: block;
+    height: 2px;
+    background-color: #fff;
+    width: 100px;
+    content: " ";
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.contain-about p {
+    text-align: justify;
+    color: #fff;
+    font-size: 1.2em;
+    letter-spacing: 2px;
+    word-spacing: 1px;
+}
+
+.link-cv {
+    display: block;
+    margin: auto;
+    width: 200px;
+}
