@@ -149,11 +149,7 @@ header:hover #spider2 {
 
 /*MAIN*/
 
-.social-network {
-    text-align: center;
-    font-size: 3em;
-    margin: 0;
-}
+
 
 /*PRESENTATION*/
 
@@ -215,14 +211,14 @@ header:hover #spider2 {
     text-transform: uppercase;
 }
 .contain-progress h3 {
-    font-size: 0.8em;
+    font-size: 1em;
     margin-bottom: 0;
 }
 
 .skill-rate-on {
     background-color: #000;
     display: inline-block;
-    width: 10px;
+    width: 20px;
     height: 5px;
     margin: 0;
     padding: 0;
@@ -231,16 +227,16 @@ header:hover #spider2 {
 .skill-rate-off {
     background-color: rgb(230, 230, 230);
     display: inline-block;
-    width: 10px;
+    width: 20px;
     height: 5px;
     margin: 0;
     padding: 0;
 }
 
-.jo-montain {
-    background-image: url('../images/jo-mountain.jpg');
-    width: 20px;
-    height: 30px;
+.jo-mountain {
+    margin-top: 120px;
+    width: 350px;
+    height: 400px;
 }
 
 
@@ -353,6 +349,10 @@ header:hover #spider2 {
 
 }
 
+.rotate:hover {
+    transform: rotateY(30px);
+}
+
 /*CONTACT*/
 
 #contact {
@@ -365,9 +365,20 @@ header:hover #spider2 {
     padding-bottom: 0;
 }
 
+.social-network {
+    text-align: center;
+    font-size: 3em;
+    margin: 0;
+}
+
+.fab {
+    color: #fff;
+    margin-bottom: 40px;
+}
+
 #contact p {
     color: #fff;
-    margin-bottom: 60px;
+    margin-bottom: 20px;
 }
 
 #p-question {
@@ -407,6 +418,16 @@ textarea {
     width: 100px;
     background-color: transparent;
     color: rgb(255, 60, 0);
+}
+
+footer {
+    background-color: #000;
+    text-align: center;
+    padding: 10px;
+}
+
+footer p {
+    color: rgb(221, 218, 218);
 }
 
 
