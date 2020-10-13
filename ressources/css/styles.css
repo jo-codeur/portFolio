@@ -1,12 +1,22 @@
+html {
+    scroll-behavior: smooth; 
+    transition: 2s;
+}
+
 body {
     font-family: 'lato';
     margin: 0;
     padding: 0;
+    background-color: rgba(24, 41, 56, 0.1);
 }
 
 a {
     text-decoration: none;
     color: #000;
+}
+
+h2 {
+    text-align: center;
 }
 
 /*HEADER*/
@@ -141,7 +151,7 @@ header:hover #spider2 {
 /*PRESENTATION*/
 
 .presentation {
-    background-color: #D1312C;
+    background-color: rgba(37, 94, 85, 0.1);
     margin: 0;
 }
 
@@ -177,3 +187,69 @@ header:hover #spider2 {
     margin: auto;
     width: 200px;
 }
+
+.contain-progress h2 {
+    text-transform: uppercase;
+}
+.contain-progress h3 {
+    font-size: 1.3em;
+    margin-bottom: 0;
+}
+
+.skill-rate-on {
+    background-color: #000;
+    display: inline-block;
+    width: 40px;
+    height: 5px;
+    margin: 0;
+    padding: 0;
+}
+
+.skill-rate-off {
+    background-color: rgb(230, 230, 230);
+    display: inline-block;
+    width: 40px;
+    height: 5px;
+    margin: 0;
+    padding: 0;
+}
+
+
+/*PARCOURS*/
+
+#presentation {
+    background-color: rgba(93, 87, 65, 0.2);
+}
+
+.title-parcours {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 60px;
+}
+
+
+
+/*EXPERIENCE*/
+
+#experiences {
+    background-color: rgba(93, 87, 65, 0.2);
+}
+
+#experiences h2 {
+    padding-top: 60px;
+}
+
+
+
+
+
+
+
+
+/*CSS AVEC JS*/
+
+nav.scroll {
+    background-color: rgb(255, 255, 255);
+    transition: 1s;
+}
+
