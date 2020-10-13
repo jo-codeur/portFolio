@@ -41,7 +41,9 @@
                         <div class="navbar-nav ml-auto">
                             <a href="#presentation" class="nav-item nav-link" id="nav1">Présentation</a>
                             <a href="#competences" class="nav-item nav-link" id="nav1">Compétences</a>
+                            <a href="#experiences" class="nav-item nav-link" id="nav1">Expériences</a>
                             <a href="#portfolio" class="nav-item nav-link" id="nav1">Portfolio</a>
+                            <a href="#contact" class="nav-item nav-link" id="nav1">Contact</a>
                         </div>
     
                     </div>
@@ -110,14 +112,14 @@
 
             <div class="container contain-description">
               <div class="row">
-                <div class="col-lg-8 contain-about">
+                <div class="col-lg-6 contain-about from-left">
                   <h2>A propos de moi</h2>
                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos expedita provident quae iste quod esse, quam numquam ut tempora quia dolor vero praesentium, cumque natus est animi fuga accusamus minima? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque rem culpa fugiat minus ratione velit sequi natus eum aut sunt mollitia, iste dolor, magni illum, magnam repellat assumenda aliquid animi.</p>
                   <a href="ressources/docs/cv_johan_joubert.pdf" class="btn btn-light link-cv">Télécharger mon cv</a>
                 </div>
                 
-                <div class="colg-lg-6 contain-progress">
-                  <h2>Compétences</h2>
+                <div class="colg-lg-3 contain-progress from-right">
+                      <h2>Compétences</h2>
   
                   <h3>HTML5 / CSS3 / BOOTSTRAP</h3>
                   <div class="skill-bar">
@@ -179,9 +181,15 @@
                       <div class="skill-rate-off"></div>
                       <div class="skill-rate-off"></div>
                     </div>
+  
+                </div>
+
+                <div class="col-lg-12">
+                  <div class="jo-nountain"></div>
+                </div>
 
                   </div>
-  
+                  
               </div>
 
             </div>
@@ -192,7 +200,7 @@
 
             <h2 class="title-parcours">Compétences</h2>
 
-            <div class="container">
+            <div class="container from-right">
               <div class="row">
                 <div class="col-lg-3">
                   <i class="fas fa-magic"></i>
@@ -224,7 +232,7 @@
           <section id="experiences">
             <h2>Expériences & Formations</h2>
 
-            <div class="container">
+            <div class="container from-right">
               <div class="row">
                 <div class="col-lg-4">
                   <h3>Expériences</h3>
@@ -252,7 +260,7 @@
               </div>
             </div>
 
-            <div class="container">
+            <div class="container from-left">
               <div class="row">
                 <div class="col-lg-4">
                   <h3>Formations</h3>
@@ -281,35 +289,74 @@
             </div>
           </section>
 
+          <section id="in-moment">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-4">
+                  <h3>EN CE MOMENT</h3>
+                </div>
+                <div class="col-lg-8">
+                  <h4>JE SUIS EN FORMATION AU CENTRE DE ARINFO</h4>
+                  <p id="contact-me">N'hésitez pas à me contacter</p>
+                  <a href="#contact"><i class="far fa-paper-plane"></i> Contactez-moi</a>
+                </div>
+
+              </div>
+            </div>
+          </section>
+
           <section id="portfolio">
 
             <h2>Portfolio</h2>
 
+            <div class="container contain-portf">
+
+              <div class="row">
+                <a href="#" class="link from-right"><div class="colg-lg-4 meteo"></div></a>
+                <a href="#" class="link from-left"><div class="colg-lg-4 impots"></div></a>
+                <a href="#" class="link from-right"><div class="colg-lg-4 cookie"></div></a>
+              </div>
+              <div class="row">
+                <a href="#" class="link from-left"><div class="colg-lg-4 zanzibar"></div></a>
+                <a href="#" class="link from-right"><div class="colg-lg-4 fouras"></div></a>
+                <a href="#" class="link from-left"><div class="colg-lg-4 tea"></div></a>
+              </div>
+            </div>
+          </section>
+
+          
+
+          <section id="contact">
             <div class="container">
-
-
               <div class="row">
-                <div class="colg-lg-4 meteo">
-                </div>
-                <div class="colg-lg-4 impots">
-                </div>
-                <div class="colg-lg-4 cookie">
-                </div>
-              </div>
-              <div class="row">
-                <div class="colg-lg-4 zanzibar">
-                </div>
-                <div class="colg-lg-4 fouras">
-                </div>
-                <div class="colg-lg-4 tea">
+                <div class="col-lg-6">
+                  <h2>Contactez moi</h2>
+                  <p id="p-question">Une question ? une remarque ? laissez moi un message !</p>
                 </div>
               </div>
 
-                
+              <div class="row">
+                <div class="col-lg-6 from-left">
+                  <p><i class="fas fa-map-marker-alt icon-form"></i> 10 rue de Zizou 1998 Stade de France</p>
+                  <p><i class="fas fa-phone-alt icon-form"></i> <a href="tel:+33675769255" class="link-form"> 06 75 76 92 55</a></p>
+                  <p><i class="far fa-envelope icon-form"></i> <a href="mailto:njoubert06@gmail.com" class="link-form link-red"> njoubert06@gmail.com</a></p>
+                  <p><i class="fas fa-globe-europe icon-form"></i> <a href="http://johanjoubert.com" class="link-form link-red">http://johanjoubert.com</a> </p>
+                </div>
+
+                <div class="col-lg-6 from-right">
+                  <form action="post">
+                    <input type="text" placeholder="Nom">
+                    <input type="mail" placeholder="E-mail">
+                    <textarea name="" id="" cols="15" rows="5" placeholder="Votre message"></textarea>
+                    <input type="submit" value="Envoyer" class="submit">
+                  </form>
+                </div>
+              </div>
             </div>
           </section>
 
         </main>
+
 
                
 

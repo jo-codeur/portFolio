@@ -16,6 +16,8 @@ a {
 
 h2 {
     text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 p {
@@ -23,6 +25,7 @@ p {
 }
 
 /*HEADER*/
+
 
 header {
     background-image: url('../images/sancy.jpg');
@@ -212,14 +215,14 @@ header:hover #spider2 {
     text-transform: uppercase;
 }
 .contain-progress h3 {
-    font-size: 1.3em;
+    font-size: 0.8em;
     margin-bottom: 0;
 }
 
 .skill-rate-on {
     background-color: #000;
     display: inline-block;
-    width: 40px;
+    width: 10px;
     height: 5px;
     margin: 0;
     padding: 0;
@@ -228,10 +231,16 @@ header:hover #spider2 {
 .skill-rate-off {
     background-color: rgb(230, 230, 230);
     display: inline-block;
-    width: 40px;
+    width: 10px;
     height: 5px;
     margin: 0;
     padding: 0;
+}
+
+.jo-montain {
+    background-image: url('../images/jo-mountain.jpg');
+    width: 20px;
+    height: 30px;
 }
 
 
@@ -251,31 +260,36 @@ header:hover #spider2 {
     font-size: 2em;
 }
 
+/*EN CE MOMENT*/
+
+#in-moment {
+    background-color: #f5f5f5;
+}
+
+#in-moment .container {
+    padding: 30px;
+}
+
+#contact-me {
+    font-size: 0.8em;
+}
+#in-moment a{
+    border: 1px solid #000;
+    padding: 5px 15px;
+}
+.fa-paper-plane {
+    color: #000;
+    margin-right: 10px;
+}
+
 
 
 /*PORTFOLIO*/
 
-#portfolio {
-    background-color: #f5f5f5;
+#portfolio h2 {
+    padding-top: 60px;
 }
-
-
-
-
-
-
-
-/*CSS AVEC JS*/
-
-nav.scroll {
-    background-color: rgb(255, 255, 255);
-    transition: 1s;
-}
-
-.link-portf {
-    display: inline-block;
-    width: 10px;
-    height: 200px;
+.link {
     margin: 10px;
 }
 
@@ -303,7 +317,7 @@ nav.scroll {
     background-image: url('../images/tea.jpg');
     background-size: cover;
     background-position: center;
-    width: 400px;
+    width: 350px;
     height: 250px;
     margin: 20px auto ;
 
@@ -313,7 +327,7 @@ nav.scroll {
     background-image: url('../images/meteo.jpg');
     background-size: cover;
     background-position: center;
-    width: 400px;
+    width: 350px;
     height: 250px;
     margin: 20px auto ;
 
@@ -323,7 +337,7 @@ nav.scroll {
     background-image: url('../images/impots.jpg');
     background-size: cover;
     background-position: center;
-    width: 400px;
+    width: 350px;
     height: 250px;
     margin: 20px auto ;
 
@@ -333,12 +347,102 @@ nav.scroll {
     background-image: url('../images/cookie.jpg');
     background-size: cover;
     background-position: center;
-    width: 400px;
+    width: 350px;
     height: 250px;
     margin: 20px auto ;
 
 }
 
+/*CONTACT*/
+
+#contact {
+    background-color: #18191a;
+}
+
+#contact h2{
+    text-align: left;
+    color: #fff;
+    padding-bottom: 0;
+}
+
+#contact p {
+    color: #fff;
+    margin-bottom: 60px;
+}
+
+#p-question {
+    font-weight: bold;
+    color: #fff;
+}
+
+.icon-form {
+    color: #fff;
+    font-size: 1em;
+}
+
+.link-form {
+    color:#fff;
+    margin: 0;
+    padding: 0;
+}
+
+.link-red {
+    color: rgb(255, 60, 0);
+}
+
+input {
+    display: block;
+    margin-bottom: 12px;
+    width: 90%;
+    padding-left: 10px;
+}
+
+textarea {
+    width: 90%;
+    margin-bottom: 12px;
+    padding-left: 10px;
+}
+
+.submit {
+    width: 100px;
+    background-color: transparent;
+    color: rgb(255, 60, 0);
+}
 
 
 
+
+/*CSS AVEC JS*/
+
+/*nav white scroll*/
+
+nav.scroll {
+    background-color: rgb(255, 255, 255);
+    transition: 1s;
+    box-shadow: 0 4px 2px -2px rgba(180, 180, 180, .4);
+}
+
+
+
+
+.link-portf {
+    display: inline-block;
+    width: 10px;
+    height: 200px;
+    margin: 10px;
+}
+
+
+/*all translate scroll*/
+
+.from-right,
+.from-left {
+    opacity: 0;
+    transition: transform 1s ease-in-out, opacity 0.5s ease-in-out;
+}
+.from-right {
+    transform: translate(500px,-300px);
+}
+.from-left {
+    transform: translate(-500px,-300px);
+}
