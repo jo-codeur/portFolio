@@ -1,0 +1,129 @@
+body {
+    font-family: 'lato';
+    margin: 0;
+    padding: 0;
+}
+
+/*HEADER*/
+
+header {
+    background-image: url('../images/sancy.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.main-title {
+    text-align: center;
+    margin-top: 300px;
+    color: #fff;
+}
+
+.main-title h1 {
+    font-size: 5em;
+    font-weight: 900;
+}
+
+.main-title span {
+    font-size: 0.4em;
+    font-weight: 100;
+}
+
+.scroll-downs {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    width :34px;
+    height: 55px;
+  }
+  .mousey {
+    width: 3px;
+    padding: 10px 15px;
+    height: 35px;
+    border: 2px solid #fff;
+    border-radius: 25px;
+    opacity: 0.75;
+    box-sizing: content-box;
+    margin-top: 90px;
+  }
+  .scroller {
+    width: 3px;
+    height: 10px;
+    border-radius: 25%;
+    background-color: #fff;
+    animation-name: scroll;
+    animation-duration: 2.2s;
+    animation-timing-function: cubic-bezier(.15,.41,.69,.94);
+    animation-iteration-count: infinite;
+  }
+  @keyframes scroll {
+    0% { opacity: 0; }
+    10% { transform: translateY(0); opacity: 1; }
+    100% { transform: translateY(15px); opacity: 0;}
+  }
+
+  .fa-pumpkin {
+      margin-left: 100px;
+  }
+
+  /*animate halloween */
+
+.pumpkin {
+    position: absolute;
+    overflow: hidden;
+}
+
+.fa-spider {
+    position: absolute;
+    overflow: hidden;
+}
+
+#pumpkin1 {
+    top: -30px;
+    transition: 2s
+}
+
+header:hover #pumpkin1 {
+    transform: translate(100px, 200px);
+    transition: 2s;
+}
+
+#pumpkin2 {
+    top: -30px;
+    left: 300px;
+    transition: 2s
+}
+
+header:hover #pumpkin2 {
+    transform: translate(290px, 600px);
+    transition: 2s;
+}
+
+
+#spider1 {
+    top : -30px;
+    left: 90px;
+    transition: 2s;
+}
+
+header:hover #spider1 {
+    transform: translate(200px, 350px);
+    transition: 2s;
+}
+
+#spider2 {
+    top : -30px;
+    left: 600px;
+    transition: 2s;
+}
+
+header:hover #spider2 {
+    transform: translate(150px, 350px);
+    transition: 2s;
+}
+
+/*MAIN*/
+
