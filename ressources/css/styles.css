@@ -26,11 +26,18 @@ p {
 
 /*HEADER*/
 
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0,0,0,.9);
+    font-size: 1.1em;
+    margin-right: 10px;
+}
+
 
 header {
-    background-image: url('../images/sancy.jpg');
+    background-image: url('../images/jo-mountain.jpg');
     background-size: cover;
     background-position: center;
+    background-attachment: fixed;
     height: 100vh;
     
 }
@@ -44,6 +51,10 @@ header {
 .main-title h1 {
     font-size: 5em;
     font-weight: 900;
+}
+
+.artisan {
+    font-size: 0.3em;
 }
 
 .main-title span {
@@ -147,27 +158,47 @@ header:hover #spider2 {
     transition: 2s;
 }
 
+#pumpkin-run {
+    position: absolute;
+    left: -100px;
+}
+
+#spider-run {
+    position: absolute;
+    left: -100px;
+}
+
+main:hover #pumpkin-run {
+    transform: translateX(1570px);
+    transition: 5s;
+    z-index: 1;
+}
+
+
+main:hover #spider-run {
+    transform: translateX(1570px);
+    transition: 4s;
+}
+
+
 /*MAIN*/
 
 
 
 /*PRESENTATION*/
 
-.presentation {
-    margin: 0;
-    
-}
 
 .contain-description {
-    padding: 150px 0 150px 0;
+    margin-bottom: 60px;
 }
+
 
 .contain-about {
     margin-top: 60px;
 }
 
 .contain-about h2 {
-    text-align: center;
+    text-align: left;
     color: rgb(43, 41, 41);
 }
 
@@ -189,10 +220,6 @@ header:hover #spider2 {
     word-spacing: 1px;
 }
 
-.img-jo {
-    margin: auto;
-    width: 50%;
-}
 
 .link-cv {
     display: block;
@@ -202,35 +229,45 @@ header:hover #spider2 {
 
 /*progress*/
 
+.contain-competence {
+    padding-bottom: 60px;
+}
+
 .contain-progress {
-    margin-top: 60px;
-    margin-bottom: 60px;
+    margin: auto;
 }
 
 .contain-progress h2 {
     text-transform: uppercase;
+    margin-bottom: -60px;
 }
+
+.rotate-vecto-jo:hover {
+    transform: rotateX(30deg);
+}
+
+
 .contain-progress h3 {
-    font-size: 1em;
+    font-size: 1.2em;
     margin-bottom: 0;
+}
+
+.skill-bar {
+    margin-bottom: 30px;
 }
 
 .skill-rate-on {
     background-color: #000;
     display: inline-block;
-    width: 20px;
+    width: 10%;
     height: 5px;
-    margin: 0;
-    padding: 0;
 }
 
 .skill-rate-off {
-    background-color: rgb(230, 230, 230);
+    background-color: rgb(207, 201, 201);
     display: inline-block;
-    width: 20px;
+    width: 10%;
     height: 5px;
-    margin: 0;
-    padding: 0;
 }
 
 .jo-mountain {
@@ -243,11 +280,11 @@ header:hover #spider2 {
 /*COMPETENCES*/
 
 #competences {
-    background-color: #f5f5f5;
+    background-color:  #f5f5f5;
 }
 
 .title-parcours {
-    text-align: center;
+    text-align: left;
     padding-top: 100px;
     margin-bottom: 60px;
 }
@@ -256,10 +293,44 @@ header:hover #spider2 {
     font-size: 2em;
 }
 
+/*EXPERIENCE*/
+
+#experiences h2 {
+    text-align: left;
+}
+
+.after-descrition-experience:after {
+    display: block;
+    height: 3px;
+    background-color:  #f5f5f5;
+    width: 100%;
+    content: " ";
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.fa-briefcase {
+    font-size: 0.9em;
+    color:  #918d8d;
+}
+
+.fa-calendar-alt {
+    font-size: 1.1em;
+    color: #918d8d;
+}
+
+.formation {
+    margin-top: 60px;
+}
+
 /*EN CE MOMENT*/
 
 #in-moment {
     background-color: #f5f5f5;
+}
+
+#in-moment h3 {
+    text-align: left;
 }
 
 #in-moment .container {
@@ -283,6 +354,7 @@ header:hover #spider2 {
 /*PORTFOLIO*/
 
 #portfolio h2 {
+    text-align: left;
     padding-top: 60px;
 }
 .link {
@@ -296,6 +368,7 @@ header:hover #spider2 {
     width: 350px;
     height: 250px;
     margin: 20px auto;
+    transition: 1s;
 }
 
 
@@ -306,7 +379,7 @@ header:hover #spider2 {
     width: 350px;
     height: 250px;
     margin: 20px auto;
-
+    transition: 1s;
 }
 
 .tea {
@@ -316,7 +389,7 @@ header:hover #spider2 {
     width: 350px;
     height: 250px;
     margin: 20px auto ;
-
+    transition: 1s;
 }
 
 .meteo {
@@ -326,7 +399,7 @@ header:hover #spider2 {
     width: 350px;
     height: 250px;
     margin: 20px auto ;
-
+    transition: 1s;
 }
 
 .impots {
@@ -336,7 +409,7 @@ header:hover #spider2 {
     width: 350px;
     height: 250px;
     margin: 20px auto ;
-
+    transition: 1s;
 }
 
 .cookie {
@@ -346,12 +419,22 @@ header:hover #spider2 {
     width: 350px;
     height: 250px;
     margin: 20px auto ;
+    transition: 1s;
+}
+
+.rotate-left:hover {
+    transform: rotateY(30deg);
+    transition: 1s;
+    box-shadow: 0 0 20px rgba(0,0,0,0.8);
+}
+
+.rotate-right:hover {
+    transform: rotateY(-30deg);
+    transition: 1s;
+    box-shadow: 0 0 20px rgba(0,0,0,0.8);
 
 }
 
-.rotate:hover {
-    transform: rotateY(30px);
-}
 
 /*CONTACT*/
 
@@ -457,7 +540,8 @@ nav.scroll {
 /*all translate scroll*/
 
 .from-right,
-.from-left {
+.from-left,
+.from-top {
     opacity: 0;
     transition: transform 1s ease-in-out, opacity 0.5s ease-in-out;
 }
@@ -467,3 +551,9 @@ nav.scroll {
 .from-left {
     transform: translate(-500px,-300px);
 }
+
+.from-top {
+    transform: translateY(-500px);
+}
+
+

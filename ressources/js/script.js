@@ -1,6 +1,7 @@
 const nav = document.querySelector('nav');
 const link = document.querySelector('.nav-link');
 
+// white menu when window scroll 500px
 
 window.addEventListener('scroll', () => {
   if(window.scrollY > 500) {
@@ -13,16 +14,16 @@ window.addEventListener('scroll', () => {
 
 
 
-//translate effect
+//translate effect all section's blocs
 
 $(document).ready(function(){
   $(window).on('scroll', function () {
   
-  var elmt   = $('.from-left, .from-right');
-  var topImg = $('.from-left, .from-right').offset().top;
+  var elmt   = $('.from-left, .from-right, .from-top');
+  var topImg = $('.from-left, .from-right, .from-top').offset().top;
   var scroll = $(window).scrollTop();
   
-      $(elmt).each(function() {
+      $(elmt).each( function () {
           
           var topImg = $(this).offset().top - 300;
           
@@ -35,3 +36,5 @@ $(document).ready(function(){
       });
   });
 });
+
+
