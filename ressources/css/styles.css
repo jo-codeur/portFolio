@@ -160,7 +160,7 @@ header:hover #spider2 {
 
 #pumpkin-run {
     position: absolute;
-    left: -100px;
+    left: -110px;
 }
 
 #spider-run {
@@ -470,12 +470,12 @@ main:hover #spider-run {
 }
 
 .network-scale {
-    transition: 0.5;
+    transition: .8s;
 }
 
 .network-scale:hover {
-    transform: scale(1.5);
-    transition: 0.5s;
+    transform: rotate(360deg);
+    transition: .8s;
 }
 
 .fab {
@@ -569,6 +569,12 @@ footer p {
 }
 
 /*animated ball*/
+
+.container-ball {
+    position: absolute;
+    top: 20px;
+    left: -30px;
+}
 
 .ball {
 	width: 10px;
