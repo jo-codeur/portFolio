@@ -34,7 +34,7 @@ p {
 
 
 header {
-    background-image: linear-gradient(rgba(52, 163, 214, 0.2), rgba(13, 95, 34, 0.2)), url('../images/jo-mountain.jpg');
+    background-image: linear-gradient(rgba(52, 163, 214, 0.1), rgba(7, 238, 180, 0.1)), url('../images/jo-mountain.jpg');
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -310,8 +310,8 @@ main:hover #spider-run {
 
 .after-descrition-experience:after {
     display: block;
-    height: 3px;
-    background-color:  #f5f5f5;
+    height: 2px;
+    background-color:  #a5a5a5;
     width: 100%;
     content: " ";
     margin: 0 auto;
@@ -674,10 +674,6 @@ nav.scroll {
     transition: transform 1s ease-in-out, opacity 0.5s ease-in-out;
 }
 
-.apparence {
-    opacity: 0;
-    transition: transform 1s ease-in-out, opacity 1.5s ease-in-out;
-}
 
 .from-right {
     transform: translate(500px,-300px);
@@ -691,32 +687,3 @@ nav.scroll {
 }
 
 
-
-
-/*Thug life*/
-
-.glass {
-    position: absolute;
-    top: 1360px;
-    left: 0px;
-    transition: 4s;
-}
-
-.smoke {
-    position: absolute;
-    top: 1480px;
-    left: 0px;
-    transition: 4s;
-
-}
-
-.thug:hover .glass {
-    transform: translateX(872px);
-    transition: 4s;
-    color: transparent;
-}
-
-.thug:hover .smoke {
-    transform: translateX(952px);
-        transition: 4s;
-}

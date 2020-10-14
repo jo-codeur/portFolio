@@ -19,13 +19,13 @@ window.addEventListener('scroll', () => {
 $(document).ready(function(){
   $(window).on('scroll', function () {
   
-  var elmt   = $('.from-left, .from-right, .from-top, .apparence');
-  var topImg = $('.from-left, .from-right, .from-top, .apparence').offset().top;
+  var elmt   = $('.from-left, .from-right, .from-top');
+  var topImg = $('.from-left, .from-right, .from-top').offset().top;
   var scroll = $(window).scrollTop();
   
       $(elmt).each( function () {
           
-          var topImg = $(this).offset().top - 300;
+          var topImg = $(this).offset().top - 200;
           
               if ( topImg < scroll ) {
               
