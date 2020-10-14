@@ -194,6 +194,7 @@ main:hover #spider-run {
 
 .title-about {
     text-align: left;
+    font-weight: 900;
 }
 
 
@@ -466,6 +467,15 @@ main:hover #spider-run {
     text-align: center;
     font-size: 3em;
     margin: 0;
+}
+
+.network-scale {
+    transition: 0.5;
+}
+
+.network-scale:hover {
+    transform: scale(1.5);
+    transition: 0.5s;
 }
 
 .fab {
